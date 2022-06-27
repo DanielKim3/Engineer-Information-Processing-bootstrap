@@ -14,162 +14,174 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<style>
+  .row{margin-top: 10px; margin-left:1px;}
+</style>
   </head>
   <body style="overflow-x: hidden;"">
-    <h1>정보처리기사 필기 정리</h1>
-    <!--nav bar -->
-    <nav class="navbar bg-light">
-        <div class="container-fluid">
-          <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
-      <!--tables -->
-      <table class="table">        
-        <th colspan="6">소프트웨어 설계_01</th>
-        <tr>
-            <td><a href="#여기로">SW 생명주기</a></td>
-            <td><a href="#여기로001">애자일 모형</a></td>
-            <td><a href="#여기로002">스크럼</a></td>
-            <td><a href="#여기로003">XP</a></td>
-            <td><a href="#여기로003">XP(eXtreme Programming)</a></td>
-            <td><a href="#여기로003">XP(eXtreme Programming)</a></td>
-        </tr>
-        <tr>
-            <td><a href="#여기로004">개발 기술 환경 파악</a></td>
-            <td><a href="#여기로005">요구사항 정의</a></td>
-            <td><a href="#여기로006">요구사항 분석</a></td>
-            <td><a href="#여기로007">UML(Unified Modeling Language)</a></td>
-            <td><a href="#여기로007">UML(Unified Modeling Language)</a></td>
-            <td><a href="#여기로007">UML(Unified Modeling Language)</a></td>
-        </tr>     
-        <tr>
-            <td><a href="#여기로008">다이어그램</a></td>
-            <td><a href="#여기로009">주요 UML 다이어그램</a></td>
-            <td><a href="#여기로010">사용자 Interface (UI)</a></td>
-            <td><a href="#여기로011">품질 요구사항</a></td>
-            <td><a href="#여기로011">품질 요구사항</a></td>
-            <td><a href="#여기로011">품질 요구사항</a></td>
-        </tr>
-        <tr>
-            <td><a href="#여기로012">소프트웨어 아키택처</a></td>
-            <td><a href="#여기로013">객체지향</a></td>
-            <td><a href="#여기로014">모듈</a></td>
-            <td><a href="#여기로015">디자인 패턴</a></td>
-            <td><a href="#여기로015">디자인 패턴</a></td>
-            <td><a href="#여기로015">디자인 패턴</a></td>
-        </tr>
-        <th colspan="6">소프트웨어 개발_02</th>
-        <tr>
-            <td><a href="#여기로016">소프트웨어 생명 주기</a></td>
-            <td><a href="#여기로017">소프트웨어 생명 주기</a></td>
-            <td><a href="#여기로018">소프트웨어 생명 주기</a></td>
-            <td><a href="#여기로019">소프트웨어 생명 주기</a></td>
-        </tr>    
-        <tr>
-            <td><a href="#여기로016">소프트웨어 생명 주기</a></td>
-            <td><a href="#여기로017">소프트웨어 생명 주기</a></td>
-            <td><a href="#여기로018">소프트웨어 생명 주기</a></td>
-            <td><a href="#여기로019">소프트웨어 생명 주기</a></td>  
-        </tr>
-      </table>
-      <!-- Card section -->
-      <div class="card">
-        <div class="card-header" style="height: 50px">        
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <a name="여기로"></a>
-                  <h5 class="card-title"><strong>소프트웨어 생명 주기</strong></h5>                  
-                  <p class="card-text">폭포수 모형</p>
-                  <hr/>
-                  <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                 
+   <div class="container-fluid">
+      <h1 class="display-1" style="text-align: center; margin:50px 0 50px 0;"><strong>정보처리기사 필기 정리</strong></h1>
+      <!--nav bar -->
+      <nav class="navbar bg-light">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+        <!--tables -->
+        <table class="table table-striped">        
+          <th colspan="6">소프트웨어 설계_01</th>
+          <tr>
+              <td><a href="#여기로">SW 생명주기</a></td>
+              <td><a href="#여기로001">애자일 모형</a></td>
+              <td><a href="#여기로002">스크럼</a></td>
+              <td><a href="#여기로003">XP</a></td>
+              <td><a href="#여기로003">XP(eXtreme Programming)</a></td>
+              <td><a href="#여기로003">XP(eXtreme Programming)</a></td>
+          </tr>
+          <tr>
+              <td><a href="#여기로004">개발 기술 환경 파악</a></td>
+              <td><a href="#여기로005">요구사항 정의</a></td>
+              <td><a href="#여기로006">요구사항 분석</a></td>
+              <td><a href="#여기로007">UML(Unified Modeling Language)</a></td>
+              <td><a href="#여기로007">UML(Unified Modeling Language)</a></td>
+              <td><a href="#여기로007">UML(Unified Modeling Language)</a></td>
+          </tr>     
+          <tr>
+              <td><a href="#여기로008">다이어그램</a></td>
+              <td><a href="#여기로009">주요 UML 다이어그램</a></td>
+              <td><a href="#여기로010">사용자 Interface (UI)</a></td>
+              <td><a href="#여기로011">품질 요구사항</a></td>
+              <td><a href="#여기로011">품질 요구사항</a></td>
+              <td><a href="#여기로011">품질 요구사항</a></td>
+          </tr>
+          <tr>
+              <td><a href="#여기로012">소프트웨어 아키택처</a></td>
+              <td><a href="#여기로013">객체지향</a></td>
+              <td><a href="#여기로014">모듈</a></td>
+              <td><a href="#여기로015">디자인 패턴</a></td>
+              <td><a href="#여기로015">디자인 패턴</a></td>
+              <td><a href="#여기로015">디자인 패턴</a></td>
+          </tr>
+          <th colspan="6">소프트웨어 개발_02</th>
+          <tr>
+              <td><a href="#여기로016">소프트웨어 생명 주기</a></td>
+              <td><a href="#여기로017">소프트웨어 생명 주기</a></td>
+              <td><a href="#여기로018">소프트웨어 생명 주기</a></td>
+              <td><a href="#여기로019">소프트웨어 생명 주기</a></td>
+          </tr>    
+          <tr>
+              <td><a href="#여기로016">소프트웨어 생명 주기</a></td>
+              <td><a href="#여기로017">소프트웨어 생명 주기</a></td>
+              <td><a href="#여기로018">소프트웨어 생명 주기</a></td>
+              <td><a href="#여기로019">소프트웨어 생명 주기</a></td>  
+          </tr>
+        </table>
+        <!-- Card section -->
+        <div class="card">
+          <div class="card-header" style="height: 50px">        
+          </div>
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <a name="여기로"></a>
+                    <h5 class="card-title"><strong>폭포수 모형</strong></h5>                         
+                    <hr/>
+                    <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
+                    <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                 
+                  </div>
                 </div>
               </div>
-            </div>
-            
-            <div class="col-sm-6">
-                <input type="image"src="assets/top2.png" onclick="javascript:window.scrollTo(0,0)" alt="맨위로" style="position:fixed; width: 50px; margin-top: -50px;">
-                <div class="form-floating">
-                    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 400px; position: fixed; border: 3px solid skyblue;"></textarea>                   
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <a name="여기로"></a>
-                  <h5 class="card-title"><strong>소프트웨어 생명 주기</strong></h5>                  
-                  <p class="card-text">폭포수 모형</p>
-                  <hr/>
-                  <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                 
-                </div>
+              
+              <div class="col-sm-6">
+                  <input type="image"src="assets/top2.png" onclick="javascript:window.scrollTo(0,0)" alt="맨위로" style="position:fixed; width: 47px; margin-top: -59px;">
+                  <div class="form-floating">
+                      <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="font-size: 1.5rem; height: 400px; width: 47.8%; position: fixed; border: 3px solid lightgrey;"></textarea>                   
+                  </div>
               </div>
-            </div>          
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <a name="여기로"></a>
-                  <h5 class="card-title"><strong>소프트웨어 생명 주기</strong></h5>                  
-                  <p class="card-text">폭포수 모형</p>
-                  <hr/>
-                  <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                 
+          </div>
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <a name="여기로001"></a>
+                    <h5 class="card-title"><strong>애자일 모형</strong></h5>                        
+                    <hr/>
+                    <p class="card-text">고객의 요구사항 변화에 유연하게 대응할 수 있도록 일정한 주기를 반복하면서 진행하는 모형</p>
+                    <p class="card-text">고객과의 소통에 초점을 맞춘 모든 방법론을 통칭</p>                 
+                  </div>
                 </div>
-              </div>
-        </div>          
-        </div><div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <a name="여기로"></a>
-                  <h5 class="card-title"><strong>소프트웨어 생명 주기</strong></h5>                  
-                  <p class="card-text">폭포수 모형</p>
-                  <hr/>
-                  <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                 
+              </div>          
+          </div>
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <a name="여기로002"></a>
+                    <h5 class="card-title"><strong>스크럼</strong></h5>                  
+                    <hr/>
+                    <p class="card-text">럭비용어에서 파생된 언어. 팀끼리 협업하면서 개발되는 것을 말함. &nbsp; 팀원 스스로가 팀을 구성, 개발 작업에 대한 모든것을 스스로 해결 할 수 있어야 함</p>
+                    <p class="card-text">팀원 스스로가 팀을 구성, 개발 작업에 대한 모든것을 스스로 해결 할 수 있어야 함</p><hr/>
+                    <h5 class="card-title"><strong>스크럼 구성요소</strong></h5><hr/><br/>     
+                    <p class="card-text"><strong>ㄱ. 제품 책임자</strong> : 개발될 제품에 대한 이해도가 높고 요구사항을 책임지고 의사 결정 할 사람</p>
+                    <p class="card-text"><strong>ㄴ. 스크럼 마스터</strong> : 팀이 잘 수행할 수 있도록 객관적인 시각에서 조언해주는 가이드 역할</p>
+                    <p class="card-text"><strong>ㄷ. 개발팀</strong> : 개발자 외에도 디자이너,테스터 등 제품 개발을 위해 참여하는 모든 사람 지칭 (인원은 7~8명이 적당)</p>
+                    <p class="card-text"><strong>ㄹ. 제품백로그</strong> : 개발에 필요한 요구사항을 우선순위에 따라 나열한 목록 (작성된 사용자 스토리를 기반으로 릴리즈 계획 수립)</p>
+                    <p class="card-text"><strong>ㅁ. 스프린트 계획 회의</strong> : 이번 스프린트에서 수행할 작업을 대상으로 단기 일정 수립 (task라는 작업 단위로 나눠 개발자 별로 스프린트 백로그 작성)</p>
+                    <p class="card-text"><strong>ㅂ. 스프린트</strong> : 실제 개발 작업을 진행하는 과정</p>
+                    <p class="card-text"><strong>ㅅ. 일일 스크럼 회의</strong> : 모든 팀원이 매일 약속된 시간에 회의 (스크럼 마스터는 장애 요소 해결을 도와줌)</p>
+                    <p class="card-text"><strong>o. 스프린트 검토 회의</strong> : 부분 또는 완성 제품이 요구사항에 잘 부합되는지 참석자 앞에서 테스트 수행</p>
+                    <p class="card-text"><strong>ㅈ. 스프린트 회고</strong> : 스프린트가 끝나고 정해놓은 규칙을 잘 준수 했는지, 개선할 점은 없는지 점검하고 수행</p>        
+                  </div>
                 </div>
-              </div>
-            </div>          
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <a name="여기로"></a>
-                  <h5 class="card-title"><strong>소프트웨어 생명 주기</strong></h5>                  
-                  <p class="card-text">폭포수 모형</p>
-                  <hr/>
-                  <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                 
+          </div>          
+          </div><div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <a name="여기로"></a>
+                    <h5 class="card-title"><strong>소프트웨어 생명 주기</strong></h5>                  
+                    <p class="card-text">폭포수 모형</p>
+                    <hr/>
+                    <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
+                    <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                 
+                  </div>
                 </div>
-              </div>
-            </div>          
-        </div>
-        <div class="row">
-            <div class="col-sm-6">
-              <div class="card">
-                <div class="card-body">
-                  <a name="여기로"></a>
-                  <h5 class="card-title"><strong>소프트웨어 생명 주기</strong></h5>                  
-                  <p class="card-text">폭포수 모형</p>
-                  <hr/>
-                  <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                          
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                          
+              </div>          
+          </div>
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <a name="여기로"></a>
+                    <h5 class="card-title"><strong>소프트웨어 생명 주기</strong></h5>                  
+                    <p class="card-text">폭포수 모형</p>
+                    <hr/>
+                    <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
+                    <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                 
+                  </div>
                 </div>
-              </div>
-            </div>          
+              </div>          
+          </div>
+          <div class="row">
+              <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <a name="여기로"></a>
+                    <h5 class="card-title"><strong>소프트웨어 생명 주기</strong></h5>                  
+                    <p class="card-text">폭포수 모형</p>
+                    <hr/>
+                    <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
+                    <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                          
+                    <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                          
+                  </div>
+                </div>
+              </div>          
+          </div>
         </div>
-      </div>
+   </div>
   </body>
 </html>
