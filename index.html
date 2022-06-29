@@ -6,7 +6,7 @@
     <meta name='title' content='knight'>
     <meta name='subject' content='test'>
     <meta name='publisher' content='woojin'> 
-    <meta name='author' content='woojin'>~
+    <meta name='author' content='woojin'>
     <meta name='author-Date' content='2022-06-15'>
     <title>정보처리기사 정리본</title>
     <title>Bootstrap demo</title>
@@ -19,8 +19,9 @@
     .row{margin-top: 10px; margin-left:1px;}
     a{text-decoration: none;}
     h5{background-color: antiquewhite;}
+    h1{background-color: antiquewhite;}
   </style>
-  <body style="overflow-x: hidden;"">
+  <body style="overflow-x: hidden;">
    <div class="container-xxl">
       <h1 class="display-1" style="text-align: center; margin:50px 0 50px 0;"><strong>정보처리기사 필기 정리</strong></h1>
       <!--nav bar -->
@@ -251,7 +252,7 @@
                     <p class="card-text"><strong>ㄹ. 사용자 요구사항</strong> : 사용자의 관점에서 본 시스템이 제공해야 할 사항</p>
                     <p class="card-text"><strong>ㅁ. 시스템 요구사항</strong> : 개발자의 관점에서 본 시스템 전체가 사용자와 다른 시스템에 제공해야 할 사항</p><hr/>                        
                     <h5 class="card-title"><strong>요구사항 개발 프로세스</strong></h5>    
-                    <p class="card-text">요구사항을 체계적으로 도출하고 이를 분석한 후 분석 결과를 명세서에 정리한 후 이를 확인 및 검증하는 구조화된 활동</p>                      
+                    <p class="card-text">요구사항을 체계적으로 도출하고 이를 분석한 후 분석 결과를 명세서에 정리한 후 이를 확인 및 검증하는 구조화된 활동<br/>[도출 -> 분석 -> 명세 -> 확인]의 순서로 이루어짐</p>                      
                   </div>
                 </div>
               </div>          
@@ -261,12 +262,14 @@
               <div class="card">
                 <div class="card-body">
                   <a name="여기로006"></a>
-                  <h5 class="card-title"><strong>요구사항 분석 CASE & HIPO</strong></h5>                  
-                  <p class="card-text">폭포수 모형</p>
-                  <hr/>
-                  <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                          
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                          
+                  <h5 class="card-title"><strong>요구사항 분석 CASE & HIPO</strong></h5>   
+                  <h4 class="card-title"><strong>CASE</strong></h4>
+                  <p class="card-text">요구사항 분석을 위한 CASE(Computer Aided Software Engineering) 자동화 도구</p>
+                  <p class="card-text">: 요구사항을 자동으로 분석하고, 요구사항 분석 명세서를 기술하도록 개발된 도구</p>                          
+                  <p class="card-text">CASE의 종류 SADT,SREM,PSL/PSA등이 있다.</p><hr/>
+                  <h4 class="card-title"><strong>HIPO</strong></h4>           
+                  <p class="card-text"> : 시스템 분석/설계, 문서화시 사용하는 기법으로 시스템의 입력, 처리, 출력 기능을 </p>
+                  <p class="card-title">체계적인 문서관리 가능, &nbsp; 기호, 도표등을 사용하므로 보기 쉽고 이해하기 쉽다.</p>               
                 </div>
               </div>
             </div>          
@@ -276,12 +279,9 @@
               <div class="card">
                 <div class="card-body">
                   <a name="여기로007"></a>
-                  <h5 class="card-title"><strong>UML</strong></h5>                  
-                  <p class="card-text">폭포수 모형</p>
-                  <hr/>
-                  <p class="card-text">소프트웨어 개발 방법론의 바탕</p>
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                          
-                  <p class="card-text">폭포수가 거슬러 올라갈 수 없듯이 이전 단계를 확실히 마무리 하고 다음 단계로 진행하는 개발 방법론</p>                          
+                  <h5 class="card-title"><strong>UML</strong></h5>     
+                  <h4 class="card-title"><strong>UML 이란?</strong></h4>           
+                  <p class="card-text">시스템 개발 과정에서 시스템 개발자와 고객 또는 개발자 상호 간의 의사소통이 원활하게 이루어지도록 표준화한 객체지향 모델링 언어 이다.</p>                      
                 </div>
               </div>
             </div>          
@@ -497,7 +497,6 @@
             </div>          
           </div>
         </div>
-
    </div>
   </body>
 </html>
